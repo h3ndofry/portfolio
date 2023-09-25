@@ -41,7 +41,7 @@
 	},
 	"devDependencies": {
 		"@remix-run/dev": "^1.18.0",
-		"@remix-run/eslint-config": "^1.18.0",
+		"@remix-run/eslint-config": "^1.19.3",
 		"@remix-run/serve": "^1.18.0",
 		"@tailwindcss/typography": "^0.5.10",
 		"@testing-library/cypress": "^10.0.1",
