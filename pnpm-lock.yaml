@@ -66,7 +66,7 @@ devDependencies:
     version: 5.59.7(eslint@8.49.0)(typescript@5.2.2)
   '@vitejs/plugin-react':
     specifier: ^4.0.0
-    version: 4.0.0(vite@4.2.0)
+    version: 4.0.0(vite@4.2.3)
   '@vitest/coverage-c8':
     specifier: ^0.31.4
     version: 0.31.4(vitest@0.34.4)
@@ -104,11 +104,11 @@ devDependencies:
     specifier: ^5.2.2
     version: 5.2.2
   vite:
-    specifier: ^4.2.0
-    version: 4.2.0(@types/node@20.2.5)
+    specifier: ^4.2.3
+    version: 4.2.3(@types/node@20.2.5)
   vite-tsconfig-paths:
     specifier: ^4.2.1
-    version: 4.2.1(typescript@5.2.2)(vite@4.2.0)
+    version: 4.2.1(typescript@5.2.2)(vite@4.2.3)
   vitest:
     specifier: ^0.34.4
     version: 0.34.4(happy-dom@9.18.3)
@@ -3251,7 +3251,7 @@ packages:
       lodash: 4.17.21
       mlly: 1.4.0
       outdent: 0.8.0
-      vite: 4.2.0(@types/node@20.2.5)
+      vite: 4.2.3(@types/node@20.2.5)
       vite-node: 0.28.5(@types/node@20.2.5)
     transitivePeerDependencies:
       - '@types/node'
@@ -3281,7 +3281,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@vitejs/plugin-react@4.0.0(vite@4.2.0):
+  /@vitejs/plugin-react@4.0.0(vite@4.2.3):
     resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -3291,7 +3291,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.5)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.5)
       react-refresh: 0.14.0
-      vite: 4.2.0(@types/node@20.2.5)
+      vite: 4.2.3(@types/node@20.2.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10236,7 +10236,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.2.0(@types/node@20.2.5)
+      vite: 4.2.3(@types/node@20.2.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -10257,7 +10257,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.2.0(@types/node@20.2.5)
+      vite: 4.2.3(@types/node@20.2.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -10268,7 +10268,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.2.1(typescript@5.2.2)(vite@4.2.0):
+  /vite-tsconfig-paths@4.2.1(typescript@5.2.2)(vite@4.2.3):
     resolution: {integrity: sha512-GNUI6ZgPqT3oervkvzU+qtys83+75N/OuDaQl7HmOqFTb0pjZsuARrRipsyJhJ3enqV8beI1xhGbToR4o78nSQ==}
     peerDependencies:
       vite: '*'
@@ -10279,14 +10279,14 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.2.2)
-      vite: 4.2.0(@types/node@20.2.5)
+      vite: 4.2.3(@types/node@20.2.5)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.2.0(@types/node@20.2.5):
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite@4.2.3(@types/node@20.2.5):
+    resolution: {integrity: sha512-kLU+m2q0Y434Y1kCy3TchefAdtFso0ILi0dLyFV8Us3InXTU11H/B5ZTqCKIQHzSKNxVG/yEx813EA9f1imQ9A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -10372,7 +10372,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 4.2.0(@types/node@20.2.5)
+      vite: 4.2.3(@types/node@20.2.5)
       vite-node: 0.34.4(@types/node@20.2.5)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
